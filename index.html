@@ -208,7 +208,7 @@
           stage_in() {
             var vm = this;
             var box = document.getElementById("box");
-            var y_rotate = vm.randomNum(0,52);
+            var y_rotate = vm.randomNum(0,56);
             box.style = 'transition: 3s ease-out;transform:rotateX(-1deg)rotateY(' + vm.angle*(vm.angle_i+y_rotate) + 'deg)';
             vm.angle_i += y_rotate;
             setTimeout(()=>{
@@ -298,7 +298,7 @@
           },
 
           roll: function() {
-            var t = this.randomNum(1,30);
+            var t = this.randomNum(1,20);
             console.log(t);
             return t;
           },
