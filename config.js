@@ -10,8 +10,6 @@ var musicData =[
 ];
 
 var stuData = `
-重新调整，
-重新调整，
 重新调整
 `;
 
